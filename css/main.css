@@ -3,7 +3,6 @@ display:flex;
 flex-direction: column;
 justify-content: center;
 background: gray;
-
 }
 .logo{
 background: ;
@@ -19,8 +18,4 @@ background: pink;
 }
 li + li ::before{
 margin: 0 5px;
-}
-
-html main{
-  background: #FFFFFF;
 }
