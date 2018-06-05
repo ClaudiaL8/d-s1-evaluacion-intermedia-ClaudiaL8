@@ -1,0 +1,26 @@
+.cabecero{
+display:flex;
+flex-direction: column;
+justify-content: center;
+background: gray;
+
+}
+.logo{
+background: ;
+text-align: center;
+}
+.menu{
+list-style: none;
+background: pink;
+}
+.navegador{
+  display: flex;
+  justify-content: space-between;
+}
+li + li ::before{
+margin: 0 5px;
+}
+}
+
+html main{
+  background: #FFFFFF;
