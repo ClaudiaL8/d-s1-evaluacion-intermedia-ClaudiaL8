@@ -20,7 +20,7 @@ background: pink;
 li + li ::before{
 margin: 0 5px;
 }
-}
 
 html main{
   background: #FFFFFF;
+}
