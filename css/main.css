@@ -1,21 +1,16 @@
-.cabecero{
-display:flex;
-flex-direction: column;
-justify-content: center;
-background: gray;
+.page__header{
+  text-align: center;
 }
-.logo{
-background: ;
-text-align: center;
+.div__logo{
 }
-.menu{
-list-style: none;
-background: pink;
+.menu__items{
+display: inline;
+margin-right: 20px;
+font-size: 16px;
 }
 .navegador{
-  display: flex;
-  justify-content: space-between;
+  padding-right: 15px;
 }
-li + li ::before{
-margin: 0 5px;
+.menu{
+
 }
