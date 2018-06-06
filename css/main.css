@@ -1,16 +1,44 @@
+body{
+  font-family: 'Rubik',sans-serif;
+}
 .page__header{
   text-align: center;
 }
 .div__logo{
+  padding-top: 10px;
 }
 .menu__items{
 display: inline;
 margin-right: 20px;
 font-size: 16px;
+color: #4a4a4a;
 }
 .navegador{
-  padding-right: 15px;
+margin: 10px 0 13px 0;
+}
+.listamenu{
+display: inline-flex
+}
+.page__main{
+  background: #3CDBC0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.creandodiversidad{
+}
+.page__texto{
+  font-size: 30px;
+  width: 200px;
+  text-align: center;
+  color: white;
 }
 .menu{
-
+  padding: 0;
+  margin: 0;
+}
+.menu__link{
+  text-decoration: none;
+text-transform: uppercase;
 }
