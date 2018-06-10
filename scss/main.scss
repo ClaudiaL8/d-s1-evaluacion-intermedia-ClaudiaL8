@@ -1,0 +1,64 @@
+.page__body{
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+.page__header{
+  position: fixed;
+  background: white;
+  width: 100vw;
+  text-align: center;
+  padding: 10px 0 13px 0;
+}
+.listamenu{
+  margin-top: 10px;
+}
+.menu__items{
+  display: inline;
+  margin-right: 20px;
+  font-size: 16px;
+}
+.menu__items:last-child{
+  margin:0;
+}
+.menu{
+  padding: 0;
+  margin:0;
+}
+.menu__link{
+  text-decoration: none;
+  text-transform: uppercase;
+  color:#4a4a4a;
+}
+.page__main{
+  text-align: center;
+}
+.creandodiversidad{
+  height: 100vh;
+  width: 100vw;
+  background: #3CDBC0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__texto{
+  width: 200px;
+  color: white;
+  font-size: 30px;
+}
+@media all and (min-width:768px){
+  .page__header{
+    padding: 0;
+  }
+  .cabecero{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+  }
+  .listamenu{
+    margin: 0;
+  }
+  .page__texto{
+    font-size: 40px;
+  }
+}
